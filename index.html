@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="calculator">
+        <div class="container">
+            <input type="text" readonly="readonly" class="display" id="display" placeholder="0">
+            <div class="btn-container">
+                <button data-operator="AC" class="orange">AC</button>
+                <button data-operator="DEL"class="orange">DEL</button>
+                <button data-src="%" class="orange">%</button>
+                <button data-src="/" class="orange">/</button>
+                <button data-src="7">7</button>
+                <button data-src="8">8</button>
+                <button data-src="9">9</button>
+                <button data-src="*" class="orange">*</button>
+                <button data-src="4">4</button>
+                <button data-src="5">5</button>
+                <button data-src="6">6</button>
+                <button data-src="-" class="orange">-</button>
+                <button data-src="1">1</button>
+                <button data-src="2">2</button>
+                <button data-src="3">3</button>
+                <button data-src="+" class="orange">+</button>
+                <button data-src="0">0</button>
+                <button data-src="." class="orange">.</button>
+                <button data-operator="=" class="equal orange">=</button>
+            </div>
+        </div>
+        
+    </main>
+
+    
+    <script src="app.js" defer></script>
+
+</body>
+</html>
